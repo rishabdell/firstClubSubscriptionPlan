@@ -22,9 +22,9 @@ public record SubscriptionResponse(
         PlanInterval planInterval,
         @Schema(description = "Current membership tier")
         TierName tierName,
-        @Schema(description = "Subscription start date")
+       // @Schema(description = "Subscription start date")
         LocalDate startDate,
-        @Schema(description = "Subscription end date")
+       // @Schema(description = "Subscription end date")
         LocalDate endDate,
         @Schema(description = "Cancellation timestamp if the subscription was cancelled", nullable = true)
         Instant cancelledAt) {

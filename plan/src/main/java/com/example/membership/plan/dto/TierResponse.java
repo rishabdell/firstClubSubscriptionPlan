@@ -8,7 +8,7 @@ import com.example.membership.plan.entity.TierName;
 
 import io.swagger.v3.oas.annotations.media.Schema;
 
-@Schema(description = "Membership tier and its benefits")
+
 public record TierResponse(
         @Schema(description = "Tier identifier")
         Long id,
