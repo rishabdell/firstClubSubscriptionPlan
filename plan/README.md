@@ -1,6 +1,6 @@
 # Membership Plan
 
-SSpring Boot service demonstrating a membership plan system.
+Spring Boot service demonstrating a membership plan system.
 
 Highlights
 - Spring Boot 4 (Java 21)
